@@ -8,26 +8,22 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <h1 className='bg-green-400 text-black p-4
+      rounded-xl mb-4'>Tailwind Test</h1>
+      
+
+
+
+      <div className="w-60 h-60 rounded-xl ">
+        <img
+          src="https://media1.giphy.com/media/z8n8dWgQ0mgEIyzlmV/giphy.gif?cid=790b7611a5ba988db1bc7457636dd163c28af6f6dbc84a77&rid=giphy.gif&ct=g"
+          alt="Giphy"
+          className="rounded-t-xl"
+        />
+        <div className="glass py-4 px-5 relative -top-[3.4rem]  rounded-b-xl z-10">
+          <h1 className="font-bold  font-mono  text-xl">Available soon</h1>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
