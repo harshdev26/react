@@ -42,3 +42,54 @@
 
 
 // Hey 
+
+
+// 02Counter practice::
+
+
+// import { useState } from "react";
+
+
+
+// function App(){
+    
+
+
+//     [counter, setCounter] = useState(15);
+
+//     // let counter = 15;
+    
+//     addvalue = ()=> {
+//         console.log("clicked", counter);
+//         counter = counter + 1;
+//         setCounter(counter);
+//     }
+
+//     removevalue = () => {
+//         console.log("clicked", counter)
+//         counter = counter - 1;
+//         setCounter(counter);
+//     }
+
+
+
+
+
+
+    return(
+    <>
+    
+    <h1>Chai aur code</h1>
+    <h2>Counter value: {counter}</h2>    
+    
+    
+    <button onClick={addvalue}
+    >Add value</button>
+    <button onclick={removevalue}
+    >Remove value</button>
+    </>
+    )
+
+}
+
+
